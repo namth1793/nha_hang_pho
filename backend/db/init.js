@@ -146,7 +146,7 @@ function initDB() {
         14.99, 'https://images.unsplash.com/photo-1603133872878-684f208fb84b?q=80&w=600&fit=crop', 0, null);
       insItem.run(3, 'Shaken Beef Rice', 'Cơm Bò Lúc Lắc',
         "French-inspired wok-tossed cubed ribeye in garlic butter, served over rice with watercress salad. Chef Duong's signature.",
-        16.99, 'https://images.unsplash.com/photo-1544025162-d76538920773?q=80&w=600&fit=crop', 1, null);
+        16.99, 'https://images.unsplash.com/photo-1467003909585-2f8a72700288?q=80&w=600&fit=crop', 1, null);
       insItem.run(3, 'Yang Chow Fried Rice', 'Cơm Chiên Dương Châu',
         'Classic Vietnamese-Chinese style fried rice with shrimp, pork, egg, and mixed vegetables. Light and fragrant.',
         13.99, 'https://images.unsplash.com/photo-1512058564366-18510be2db19?q=80&w=600&fit=crop', 0, null);
@@ -225,7 +225,7 @@ function initDB() {
       insGal.run('Crispy Spring Rolls', 'appetizers', 'https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=800&fit=crop');
       insGal.run('Garlic Butter Chicken Wings', 'appetizers', 'https://images.unsplash.com/photo-1527477396000-e27163b481c2?q=80&w=800&fit=crop');
       insGal.run('Pork & Vegetable Dumplings', 'appetizers', 'https://images.unsplash.com/photo-1563245372-f21724e3856d?q=80&w=800&fit=crop');
-      insGal.run('Shaken Beef Rice', 'rice-noodles', 'https://images.unsplash.com/photo-1544025162-d76538920773?q=80&w=800&fit=crop');
+      insGal.run('Shaken Beef Rice', 'rice-noodles', 'https://images.unsplash.com/photo-1467003909585-2f8a72700288?q=80&w=800&fit=crop');
       insGal.run('Yang Chow Fried Rice', 'rice-noodles', 'https://images.unsplash.com/photo-1512058564366-18510be2db19?q=80&w=800&fit=crop');
       insGal.run('Charbroiled Pork Chop Rice', 'rice-noodles', 'https://images.unsplash.com/photo-1603133872878-684f208fb84b?q=80&w=800&fit=crop');
       insGal.run('Grilled Pork Vermicelli', 'rice-noodles', 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?q=80&w=800&fit=crop');
