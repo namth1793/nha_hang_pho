@@ -26,14 +26,12 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         {/* Brand */}
         <div>
-          <Link to="/" className="flex items-center gap-3 mb-4 group">
-            <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white text-xl">
-              🍜
-            </div>
-            <div>
-              <div className="font-display font-bold text-lg text-white">Chef's Pho</div>
-              <div className="text-gold text-[10px] font-body tracking-widest uppercase">Authentic Vietnamese Cuisine</div>
-            </div>
+          <Link to="/" className="flex items-center mb-4 group">
+            <img
+              src="/logo.png"
+              alt="Phở Brother"
+              className="h-16 w-auto object-contain"
+            />
           </Link>
           <p className="text-white/60 text-sm font-body leading-relaxed mt-4">
             Family-owned Vietnamese restaurant serving authentic pho and traditional dishes since 2020. Every bowl is crafted with love and a 12-hour broth.

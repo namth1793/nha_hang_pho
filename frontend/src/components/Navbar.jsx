@@ -49,16 +49,12 @@ export default function Navbar() {
       {/* Main nav */}
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
-        <Link to="/" className="flex items-center gap-3 group">
-          <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white text-xl font-display font-bold shadow-lg group-hover:bg-primary-dark transition-colors">
-            🍜
-          </div>
-          <div className="leading-tight">
-            <span className="text-white font-display font-bold text-xl tracking-wide">Chef's Pho</span>
-            <div className="text-gold text-[10px] font-body tracking-widest uppercase hidden sm:block">
-              Authentic Vietnamese Cuisine
-            </div>
-          </div>
+        <Link to="/" className="flex items-center group">
+          <img
+            src="/logo.png"
+            alt="Phở Brother"
+            className="h-14 w-auto object-contain"
+          />
         </Link>
 
         {/* Desktop links */}
