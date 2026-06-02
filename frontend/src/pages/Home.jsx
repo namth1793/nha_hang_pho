@@ -7,6 +7,8 @@ const HERO_BG = 'https://images.unsplash.com/photo-1555126634-323283e090fa?q=80&
 const FEATURED_IMG = 'https://images.unsplash.com/photo-1569718212165-3a8278d5f624?q=80&w=900&fit=crop';
 const ABOUT_IMG = 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=800&fit=crop';
 
+const MENU_IMGS = Array.from({ length: 11 }, (_, i) => `/menu/${i + 1}.png`);
+
 function StarRating({ rating = 5 }) {
   return (
     <div className="flex gap-0.5">
@@ -155,55 +157,55 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── POPULAR DISHES ── */}
+      {/* ── OUR MENU ── */}
       <section className="bg-cream py-20">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
             <p className="section-subtitle">Fresh from the Kitchen</p>
-            <h2 className="section-title">Our Popular Dishes</h2>
+            <h2 className="section-title">Our Menu</h2>
             <p className="text-gray-500 font-body mt-3 max-w-xl mx-auto">
               From our signature pho to chef's specials — every dish is made to order with the freshest ingredients.
             </p>
           </div>
 
-          {featured.length > 0 && (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7">
-              {featured.map(item => (
-                <div
-                  key={item.id}
-                  className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300 group"
-                >
-                  <div className="relative overflow-hidden h-52">
-                    <img
-                      src={item.image_url}
-                      alt={item.name}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                    />
-                    {item.spicy_levels && (
-                      <div className="absolute top-3 right-3 bg-primary text-white text-xs font-bold px-2.5 py-1 rounded-full flex items-center gap-1">
-                        <Flame size={10} /> Spicy
-                      </div>
-                    )}
-                  </div>
-                  <div className="p-5">
-                    <div className="flex items-start justify-between gap-2 mb-2">
-                      <h3 className="font-display font-semibold text-charcoal text-base leading-tight">{item.name}</h3>
-                      <span className="text-primary font-bold font-body text-lg whitespace-nowrap">${item.price.toFixed(2)}</span>
-                    </div>
-                    <p className="text-gray-500 text-xs font-body leading-relaxed line-clamp-2 mb-4">{item.description}</p>
-                    <a
-                      href="https://chefspho.com"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="w-full block text-center bg-primary/10 hover:bg-primary text-primary hover:text-white text-sm font-semibold font-body py-2.5 rounded transition-colors duration-200"
-                    >
-                      Add to Order
-                    </a>
-                  </div>
-                </div>
-              ))}
-            </div>
-          )}
+          {/* Row 1: 3 images */}
+          <div className="grid grid-cols-3 gap-4 mb-4">
+            {MENU_IMGS.slice(0, 3).map((src, idx) => (
+              <div key={idx} className="overflow-hidden rounded-xl group">
+                <img
+                  src={src}
+                  alt={`Menu item ${idx + 1}`}
+                  className="w-full h-auto block group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+            ))}
+          </div>
+
+          {/* Row 2: 4 images */}
+          <div className="grid grid-cols-4 gap-4 mb-4">
+            {MENU_IMGS.slice(3, 7).map((src, idx) => (
+              <div key={idx} className="overflow-hidden rounded-xl group">
+                <img
+                  src={src}
+                  alt={`Menu item ${idx + 4}`}
+                  className="w-full h-auto block group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+            ))}
+          </div>
+
+          {/* Row 3: 4 images */}
+          <div className="grid grid-cols-4 gap-4">
+            {MENU_IMGS.slice(7, 11).map((src, idx) => (
+              <div key={idx} className="overflow-hidden rounded-xl group">
+                <img
+                  src={src}
+                  alt={`Menu item ${idx + 8}`}
+                  className="w-full h-auto block group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+            ))}
+          </div>
 
           <div className="text-center mt-12">
             <Link to="/menu" className="inline-flex items-center gap-2 btn-primary text-base">
