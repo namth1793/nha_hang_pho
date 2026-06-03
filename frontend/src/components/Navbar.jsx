@@ -33,7 +33,7 @@ export default function Navbar() {
           <div className="flex items-center gap-4">
             <span className="flex items-center gap-1">
               <MapPin size={12} />
-              1359 E 4th St, Ontario CA 91764
+              2363 California Ave #105, Corona, CA 92881
             </span>
             <span className="hidden sm:flex items-center gap-1">
               <Phone size={12} />

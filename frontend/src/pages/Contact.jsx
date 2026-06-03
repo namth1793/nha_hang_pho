@@ -74,8 +74,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="font-semibold font-body text-charcoal text-sm mb-0.5">Address</p>
-                      <p className="text-gray-500 font-body text-sm">1359 E 4th St</p>
-                      <p className="text-gray-500 font-body text-sm">Ontario, CA 91764</p>
+                      <p className="text-gray-500 font-body text-sm">2363 California Ave #105</p>
+                      <p className="text-gray-500 font-body text-sm">Corona, CA 92881</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
@@ -128,7 +128,7 @@ export default function Contact() {
                 />
                 <div className="p-4">
                   <a
-                    href="https://maps.google.com/?q=1359+E+4th+St+Ontario+CA+91764"
+                    href="https://maps.google.com/?q=2363+California+Ave+%23105+Corona+CA+92881"
                     target="_blank"
                     rel="noreferrer"
                     className="text-primary hover:text-primary-dark font-body text-sm font-medium transition-colors"

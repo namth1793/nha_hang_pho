@@ -158,7 +158,7 @@ export default function Careers() {
               </h2>
               {selectedJob && (
                 <p className="text-gray-400 font-body text-sm mt-2">
-                  {selectedJob.type} · Chef's Pho, Ontario CA
+                  {selectedJob.type} · Chef's Pho, Corona CA
                 </p>
               )}
             </div>

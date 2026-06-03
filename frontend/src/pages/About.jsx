@@ -24,14 +24,14 @@ const values = [
   {
     Icon: Users,
     title: 'Community First',
-    desc: 'Chef\'s Pho was built for the Ontario community. We strive to be a warm, welcoming place where everyone feels at home.',
+    desc: 'Chef\'s Pho was built for the Corona community. We strive to be a warm, welcoming place where everyone feels at home.',
     color: 'text-blue-600',
     bg: 'bg-blue-50',
   },
 ];
 
 const timeline = [
-  { year: '2020', event: 'Chef\'s Pho opens in Ontario, CA — a family dream becomes reality despite pandemic challenges.' },
+  { year: '2020', event: 'Chef\'s Pho opens in Corona, CA — a family dream becomes reality despite pandemic challenges.' },
   { year: '2021', event: 'We introduce our signature 10-level spicy pho broth, developed over months of family taste-testing.' },
   { year: '2022', event: 'Expanded menu to include banh mi, vermicelli bowls, garlic noodles, and chef-crafted rice dishes.' },
   { year: '2023', event: 'Recognized as one of the top Vietnamese restaurants in the Inland Empire by local food critics.' },
@@ -51,7 +51,7 @@ export default function About() {
           <p className="section-subtitle text-gold mb-2">Est. February 2020</p>
           <h1 className="font-display font-bold text-4xl md:text-5xl text-white">Our Story</h1>
           <p className="text-white/75 font-body mt-3 max-w-xl mx-auto">
-            A family's passion for authentic Vietnamese cuisine, brought to life in Ontario, California
+            A family's passion for authentic Vietnamese cuisine, brought to life in Corona, California
           </p>
         </div>
       </section>

@@ -89,8 +89,8 @@ export default function Footer() {
             <div className="flex items-start gap-3">
               <MapPin size={18} className="text-primary mt-0.5 flex-shrink-0" />
               <div>
-                <p className="text-white/80 text-sm font-body">1359 E 4th St</p>
-                <p className="text-white/80 text-sm font-body">Ontario, CA 91764</p>
+                <p className="text-white/80 text-sm font-body">2363 California Ave #105</p>
+                <p className="text-white/80 text-sm font-body">Corona, CA 92881</p>
               </div>
             </div>
             <div className="flex items-center gap-3">
@@ -119,7 +119,7 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 py-5 flex flex-col sm:flex-row items-center justify-between gap-2 text-sm text-white/40 font-body">
           <p>© 2024 Chef's Pho. All rights reserved.</p>
-          <p>1359 E 4th St, Ontario CA 91764 | (909) 321-0609</p>
+          <p>2363 California Ave #105, Corona, CA 92881 | (909) 321-0609</p>
         </div>
       </div>
     </footer>

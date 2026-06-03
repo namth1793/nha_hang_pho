@@ -38,7 +38,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/65" />
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
           <p className="text-gold font-body font-semibold text-sm tracking-widest uppercase mb-5">
-            Authentic Vietnamese Cuisine — Ontario, CA
+            Authentic Vietnamese Cuisine — Corona, CA
           </p>
           <h1 className="font-display font-bold text-4xl md:text-6xl lg:text-7xl leading-tight mb-6">
             Traditional dishes with
@@ -237,7 +237,7 @@ export default function Home() {
               </h2>
               <div className="w-16 h-1 bg-primary mb-6" />
               <p className="text-gray-600 font-body leading-relaxed mb-5">
-                Chef's Pho was born in February 2020 from a simple passion: to bring authentic Vietnamese cuisine to Ontario, California. Founded by Chef Duong and his family, we opened our doors with the mission to share the bold, soulful flavors of Vietnam.
+                Chef's Pho was born in February 2020 from a simple passion: to bring authentic Vietnamese cuisine to Corona, California. Founded by Chef Duong and his family, we opened our doors with the mission to share the bold, soulful flavors of Vietnam.
               </p>
               <p className="text-gray-600 font-body leading-relaxed mb-8">
                 What makes us unique? We developed our own signature spicy pho broth recipe — available in 10 customizable heat levels. Whether you love mild or dare to try level 10, we have a bowl for you.
@@ -311,7 +311,7 @@ export default function Home() {
             Ready for an Authentic Pho Experience?
           </h2>
           <p className="text-white/85 font-body text-lg mb-8">
-            Order online or visit us at 1359 E 4th St, Ontario CA 91764.
+            Order online or visit us at 2363 California Ave #105, Corona, CA 92881.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

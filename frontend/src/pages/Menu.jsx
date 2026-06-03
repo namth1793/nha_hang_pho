@@ -133,7 +133,7 @@ export default function Menu() {
         <div className="max-w-2xl mx-auto px-4">
           <h2 className="font-display font-bold text-3xl mb-3">Ready to Order?</h2>
           <p className="text-white/80 font-body mb-6">
-            Order online for pickup or dine in with us at 1359 E 4th St, Ontario CA 91764.
+            Order online for pickup or dine in with us at 2363 California Ave #105, Corona, CA 92881.
           </p>
           <a
             href="https://chefspho.com"
